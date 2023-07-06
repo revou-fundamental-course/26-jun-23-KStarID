@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>E-Groceries Website</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav id="navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Our Packages</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="banner">
+      <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+      <p>Every Day with Best Ingredients</p>
+      <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <section id="packages">
+    <div class="packages">
+      <h2>Our Packages</h2>
+      <div class="package">
+        <img src="img/download.jpg" alt="Package 1">
+        <h3>Package 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="package">
+        <img src="img/clothes.jpg" alt="Package 2">
+        <h3>Package 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+      <div class="package">
+        <img src="img/food.jpg" alt="Package 3">
+        <h3>Package 3</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

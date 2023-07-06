@@ -1,0 +1,163 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #ff7f50;
+  }
+  
+  /* Banner */
+  .banner {
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .banner p {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #e25d3d;
+  }
+  
+  /* Our Packages */
+  .packages {
+    text-align: center;
+    padding: 50px;
+  }
+  
+  .package {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .package img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .package h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .package p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Contact Us */
+  .contact {
+    background-color: #f0f0f0;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .contact form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #ff7f50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #e25d3d;
+  }
+  
